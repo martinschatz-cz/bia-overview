@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: False
+
+chapters:
+- file: Introduction
+  #sections:
+# Must Know Sources
+- file: 00_must_know
+# Must web
+- file: 01_web_source
+# Must lectures
+- file: 02_lectures  
+# my tested tools
+- file: 03_tested_tools
