@@ -1,4 +1,4 @@
-[![build-jbook](https://github.com/martinschatz-cz/bia-overview/actions/workflows/build-jbook.yml/badge.svg)](https://github.com/martinschatz-cz/bia-overview/actions/workflows/build-jbook.yml)
+[![build-jbook](https://github.com/martinschatz-cz/bia-overview/actions/workflows/build-jbook.yml/badge.svg?branch=main)](https://github.com/martinschatz-cz/bia-overview/actions/workflows/build-jbook.yml)
 
 # bia-overview
  
