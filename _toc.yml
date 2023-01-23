@@ -18,3 +18,5 @@ chapters:
 - file: 02_lectures  
 # my tested tools
 - file: 03_tested_tools
+# courses
+- file: 04_courses
