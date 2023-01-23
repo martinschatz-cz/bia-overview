@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>My Tested Approaches &#8212; BioImage Analysis Sources Overview</title>
+    <title>BiA Approaches &#8212; BioImage Analysis Sources Overview</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,6 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Courses, Webinars, Lectures" href="04_courses.html" />
     <link rel="prev" title="Online Lectures" href="02_lectures.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -138,7 +139,12 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   My Tested Approaches
+   BiA Approaches
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04_courses.html">
+   Courses, Webinars, Lectures
   </a>
  </li>
 </ul>
@@ -296,23 +302,128 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#my-tested-tools">
+   My Tested tools
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#wish-list">
+   Wish List
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#yolov8">
+     YOLOv8
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#phycv-the-first-physics-inspired-computer-vision-python-library">
+     PhyCV - The First Physics-inspired Computer Vision Python library
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#phase-stretch-transform-pst">
+       Phase-Stretch Transform (PST)
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#phase-stretch-adaptive-gradient-field-extractor-page">
+       Phase-Stretch Adaptive Gradient-field Extractor (PAGE)
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vision-enhancement-via-virtual-diffraction-and-coherent-detection-vevid">
+       Vision Enhancement via Virtual diffraction and coherent Detection (VEViD)
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>My Tested Approaches</h1>
+                <h1>BiA Approaches</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#my-tested-tools">
+   My Tested tools
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#wish-list">
+   Wish List
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#yolov8">
+     YOLOv8
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#phycv-the-first-physics-inspired-computer-vision-python-library">
+     PhyCV - The First Physics-inspired Computer Vision Python library
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#phase-stretch-transform-pst">
+       Phase-Stretch Transform (PST)
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#phase-stretch-adaptive-gradient-field-extractor-page">
+       Phase-Stretch Adaptive Gradient-field Extractor (PAGE)
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vision-enhancement-via-virtual-diffraction-and-coherent-detection-vevid">
+       Vision Enhancement via Virtual diffraction and coherent Detection (VEViD)
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -320,8 +431,10 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="my-tested-approaches">
-<h1>My Tested Approaches<a class="headerlink" href="#my-tested-approaches" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="bia-approaches">
+<h1>BiA Approaches<a class="headerlink" href="#bia-approaches" title="Permalink to this headline">#</a></h1>
+<section id="my-tested-tools">
+<h2>My Tested tools<a class="headerlink" href="#my-tested-tools" title="Permalink to this headline">#</a></h2>
 <p>To be filled in soon.</p>
 <ul class="simple">
 <li><p>YOLOv5 - SciCount</p></li>
@@ -330,6 +443,37 @@ title="Print to PDF"
 <li><p>Noise2Void</p></li>
 <li><p>CellPose</p></li>
 </ul>
+</section>
+<section id="wish-list">
+<h2>Wish List<a class="headerlink" href="#wish-list" title="Permalink to this headline">#</a></h2>
+<section id="yolov8">
+<h3>YOLOv8<a class="headerlink" href="#yolov8" title="Permalink to this headline">#</a></h3>
+<p>YOLOv8 is the latest version of the YOLO (You Only Look Once) object detection and image segmentation model developed by Ultralytics. This notebook serves as the starting point for exploring the various resources available to help you get started with YOLOv8 and understand its features and capabilities.</p>
+<p>The YOLOv8 models are designed to be fast, accurate, and easy to use, making them an excellent choice for a wide range of object detection and image segmentation tasks. They can be trained on large datasets and are capable of running on a variety of hardware platforms, from CPUs to GPUs.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb">Tutorial</a></p></li>
+</ul>
+</section>
+<section id="phycv-the-first-physics-inspired-computer-vision-python-library">
+<h3>PhyCV - The First Physics-inspired Computer Vision Python library<a class="headerlink" href="#phycv-the-first-physics-inspired-computer-vision-python-library" title="Permalink to this headline">#</a></h3>
+<p>PhyCV is a Physics-inspired Computer Vision Python library. PhyCV has a new class of computer vision algorithms that emulates the propagation of light through a physical medium with natural and engineered diffractive properties followed by coherent detection. Unlike traditional algorithms that are a sequence of hand-crafted empirical rules, physics-inspired algorithms leverage physical laws of nature as blueprints. These algorithms can, in principle, be implemented in real physical devices for fast and efficient computation. Currently, PhyCV includes Phase-Stretch Transform (PST), Phase-Stretch Adaptive Gradient-field Extractor (PAGE) and Vision Enhancement via Virtual diffraction and coherent Detection (VEViD). Each algorthm has CPU and GPU versions.</p>
+<section id="phase-stretch-transform-pst">
+<h4>Phase-Stretch Transform (PST)<a class="headerlink" href="#phase-stretch-transform-pst" title="Permalink to this headline">#</a></h4>
+<p>Phase Stretch Transform (PST) is a computationally efficient edge and texture detection algorithm with exceptional performance in visually impaired images. Inspired by the physics of the photonic time stretch.</p>
+</section>
+<section id="phase-stretch-adaptive-gradient-field-extractor-page">
+<h4>Phase-Stretch Adaptive Gradient-field Extractor (PAGE)<a class="headerlink" href="#phase-stretch-adaptive-gradient-field-extractor-page" title="Permalink to this headline">#</a></h4>
+<p>Phase-Stretch Adaptive Gradient-field Extractor (PAGE) is a physics-inspired algorithm for detecting edges and their orientations in digital images at various scales. The algorithm is based on the diffraction equations of optics. Metaphorically speaking, PAGE emulates the physics of birefringent (orientation-dependent) diffractive propagation through a physical device with a specific diffractive structure.</p>
+</section>
+<section id="vision-enhancement-via-virtual-diffraction-and-coherent-detection-vevid">
+<h4>Vision Enhancement via Virtual diffraction and coherent Detection (VEViD)<a class="headerlink" href="#vision-enhancement-via-virtual-diffraction-and-coherent-detection-vevid" title="Permalink to this headline">#</a></h4>
+<p>Similar to PST and PAGE, VEViD a efficient and interpretable low-light and color enhancement algorithm that reimagines a digital image as a spatially varying metaphoric light field and then subjects the field to the physical processes akin to diffraction and coherent detection. The term “Virtual” captures the deviation from the physical world. The light field is pixelated and the propagation imparts a phase with an arbitrary dependence on frequency which can be different from the quadratic behavior of physical diffraction.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/JalaliLabUCLA/phycv">GitHub</a></p></li>
+</ul>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -365,6 +509,13 @@ title="Print to PDF"
             <p class="prev-next-subtitle">previous</p>
             <p class="prev-next-title">Online Lectures</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="04_courses.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Courses, Webinars, Lectures</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>
