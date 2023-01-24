@@ -14,6 +14,7 @@ NEUBIAS is a unique network of bioimage analysts in Europe, aiming at strengthen
 
 
 ### NEUBIAS Academy
+NUBIAS Academy is anouncing webinars presenting new BiA tools, ideas or workflows. While the youtube channel is where all the records are. This is a great start when you want to start using or get to know a new tool.
  * [Web](https://eubias.org/NEUBIAS/training-schools/neubias-academy-home/)
  * [Youtube Channel](https://www.youtube.com/playlist?list=PLbQR9xT-T5W9qcTWdljmaBJcvF_4lhUdH)
 
@@ -21,17 +22,21 @@ NEUBIAS is a unique network of bioimage analysts in Europe, aiming at strengthen
 
 
 ### NEUBIAS F1000Research Gateway
+The gateway for all papers connected to BioImage Analysis tools, reviews and so on. The F1000Research is curently the best choice for Open Science publishing - everything is availabel from start, opn peer reviewd and with data and codes (wher relevant).
 [f1000research.com/NEUBIAS](https://f1000research.com/NEUBIAS)
 
 
 ## Books
  * [Bioimage Data Analysis Workflows (free)](https://link.springer.com/book/10.1007/978-3-030-22386-1)
+ * [Introduction to Bioimage Analysis](https://bioimagebook.github.io/)
 
 
 ## Communities
 
 ### Image.sc Forum
 [forum.image.sc](https://forum.image.sc/)
+
+If you have any kind of question, this is place to start. You can get here answers even sniplets of codes in matter of hour - all thanks to very active community.
 
 This forum’s focus is software-oriented aspects of scientific imaging, particularly (but not limited to) image analysis, processing, acquisition, storage, and management of digital scientific images. Everyone is welcome to ask questions. It’s for beginners and experts; life scientists and computer scientists; for practical questions and theoretical approaches to solving scientific problems with images. The primary objective is to foster independent learning 170 for everyone in the community.
 
