@@ -26,10 +26,50 @@ The gateway for all papers connected to BioImage Analysis tools, reviews and so 
 [f1000research.com/NEUBIAS](https://f1000research.com/NEUBIAS)
 
 
-## Books
- * [Bioimage Data Analysis Workflows (free)](https://link.springer.com/book/10.1007/978-3-030-22386-1)
- * [Introduction to Bioimage Analysis](https://bioimagebook.github.io/)
+## Books (open access)
+ * [Bioimage Data Analysis Workflows (Kota Miura, Nataša Sladoje)](https://link.springer.com/book/10.1007/978-3-030-22386-1)
+ * [Introduction to Bioimage Analysis (Pete Bankhead)](https://bioimagebook.github.io/)
+ * [Analyzing fluorescence microscopy images with ImageJ (Pete Bankhead)](https://petebankhead.gitbooks.io/imagej-intro/content/)
 
+## Papers
+
+### Avoiding Twisted Pixels: Ethical Guidelines for the Appropriate Use and Manipulation of Scientific Digital Images
+Digital imaging has provided scientists with new opportunities to acquire and manipulate data using techniques that were difficult or impossible to employ in the past. Because digital images are easier to manipulate than film images, new problems have emerged. One growing concern in the scientific community is that digital images are not being handled with sufficient care. The problem is twofold: (1) the very small, yet troubling, number of intentional falsifications that have been identified, and (2) the more common unintentional, inappropriate manipulation of images for publication. Journals and professional societies have begun to address the issue with specific digital imaging guidelines. Unfortunately, the guidelines provided often do not come with instructions to explain their importance. Thus they deal with what should or should not be done, but not the associated ‘why’ that is required for understanding the rules. This article proposes 12 guidelines for scientific digital image manipulation and discusses the technical reasons behind these guidelines. These guidelines can be incorporated into lab meetings and graduate student training in order to provoke discussion and begin to bring an end to the culture of “data beautification”.
+
+
+```
+@article{Cromey2010,
+  doi = {10.1007/s11948-010-9201-y},
+  url = {https://doi.org/10.1007/s11948-010-9201-y},
+  year = {2010},
+  month = jun,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {16},
+  number = {4},
+  pages = {639--667},
+  author = {Douglas W. Cromey},
+  title = {Avoiding Twisted Pixels: Ethical Guidelines for the Appropriate Use and Manipulation of Scientific Digital Images},
+  journal = {Science and Engineering Ethics}
+}
+```
+
+### Reproducible image handling and analysis
+Image data are universal in life sciences research. Their proper handling is not. A significant proportion of image data in research papers show signs of mishandling that undermine their interpretation. We propose that a precise description of the image processing and analysis applied is required to address this problem. A new norm for reporting reproducible image analyses will diminish mishandling, as it will alert co-authors, referees, and journals to aberrant image data processing or, if published nonetheless, it will document it to the reader. To promote this norm, we discuss the effectiveness of this approach and give some step-by-step instructions for publishing reproducible image data processing and analysis workflows.
+
+```
+@article{Miura2021,
+  doi = {10.15252/embj.2020105889},
+  url = {https://doi.org/10.15252/embj.2020105889},
+  year = {2021},
+  month = jan,
+  publisher = {{EMBO}},
+  volume = {40},
+  number = {3},
+  author = {Kota Miura and Simon F N{\o}rrelykke},
+  title = {Reproducible image handling and analysis},
+  journal = {The {EMBO} Journal}
+}
+```
 
 ## Communities
 
