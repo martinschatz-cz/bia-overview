@@ -3,11 +3,24 @@
 ## My Tested tools
 To be filled in soon.
 
- * YOLOv5 - SciCount
- * ImageJ in Python
- * StarDist
- * Noise2Void
- * CellPose
+- [x] YOLOv5 - SciCount
+- [x] ImageJ in Python
+- [x] pyimg - Image quality assesment
+- [ ] StarDist
+- [ ] Noise2Void
+- [ ] CellPose
+- [ ] PhyCV - physics-inspired Computer Vision Library
+
+### [YOLOv5 - SciCount](https://github.com/martinschatz-cz/SciCount)
+SciCount is tool focused on counting and classifying of objects in image-like data and scientific images, with training and example datasets. In it core it is YOLO V5 made by [Ultralytics](https://github.com/ultralytics/yolov5) (authored by [Glenn Jocher](https://www.linkedin.com/in/glenn-jocher/)), without which it would be impossible to apply our approaches on scientific data.
+
+You can find example notebooks aplying reproducible augmentatioin [SciAugment](https://github.com/martinschatz-cz/SciAugment) with small test datasets in folder example_notebooks. There is reproducible example for **LTEE**, **Wildlife detection** and **Smear counting**.
+
+### [PyImageJ - ImageJ in Python](https://github.com/martinschatz-cz/pyimagej-julab)
+Running ImageJ and its macros through Python, in local Jupyter Hub. Tested on 3 computers.
+
+### [pyimq](https://github.com/martinschatz-cz/image_quality_assesment)
+A quite impressive package for image quality assesment, tested on 3 images provided by the creators. 
  
 ## Wish List
 
