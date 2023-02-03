@@ -5,6 +5,7 @@ To be filled in soon.
 
 - [x] YOLOv5 - SciCount
 - [x] ImageJ in Python
+- [x] pyimg - Image quality assesment
 - [ ] StarDist
 - [ ] Noise2Void
 - [ ] CellPose
@@ -17,6 +18,9 @@ You can find example notebooks aplying reproducible augmentatioin [SciAugment](h
 
 ### [PyImageJ - ImageJ in Python](https://github.com/martinschatz-cz/pyimagej-julab)
 Running ImageJ and its macros through Python, in local Jupyter Hub. Tested on 3 computers.
+
+### [pyimq](https://github.com/martinschatz-cz/image_quality_assesment)
+A quite impressive package for image quality assesment, tested on 3 images provided by the creators. 
  
 ## Wish List
 
