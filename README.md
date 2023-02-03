@@ -6,6 +6,23 @@ This is a small book to give you an overview of my favourite sources and tested 
 
 # Updates
 
+## February 2023
+
+ * Added section for BioImage Analysis lectures
+ * Included links to Bio-image Analysis resources and YouTube channel
+ * Added information about NEUBIAS Academy and F1000Research Gateway
+ * Included information about open access books and papers related to BioImage Analysis
+ * Included Image.sc Forum for scientific imaging questions
+ * Checked off tested tools such as YOLOv5 - SciCount, ImageJ in Python, StarDist, Noise2Void, CellPose, PhyCV, and VEViD
+ * Added example notebooks for LTEE, Wildlife detection and Smear counting
+ * Added two new lecture series and two new Python lecture series
+ * Included lecture series, Python lecture series, and tested tools to comprehensive class
+ * Added a section about communities with links to four forums
+ * Updated links for papers on image analysis accuracy and precision
+ * Added information about communities, papers, and lecture series related to BioImage Analysis
+ * Added and updated links to various resources
+ * Added and updated information about tested tools including YOLOv5, ImageJ in Python, PhyCV, and pyimq.
+
 ## January 2023
  * Added information about NEUBIAS Academy and F1000Research Gateway
  * Added information about open access books and papers related to BioImage Analysis
