@@ -58,7 +58,8 @@ Official forum of KNIME Analytics Platform, an open-source data analytics, repor
 
 ## Tools for Reporducibility
 
- * [**The Turing Way**](https://the-turing-way.netlify.app/welcome) - making reproducible Data Science "too easy not to do", handbook to reproducible, ethical and collaborative data science.
+ * [The Turing Way](https://the-turing-way.netlify.app/welcome) - making reproducible Data Science "too easy not to do", handbook to reproducible, ethical and collaborative data science.
+ * [Zero-to-Binder](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html) - how to create a Binder project from scratch for Python, Julia or R GitHub repository.
 
 ## Papers
 
