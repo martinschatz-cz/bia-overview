@@ -58,8 +58,14 @@ Official forum of KNIME Analytics Platform, an open-source data analytics, repor
 
 ## Tools for Reporducibility
 
- * [The Turing Way](https://the-turing-way.netlify.app/welcome) - making reproducible Data Science "too easy not to do", handbook to reproducible, ethical and collaborative data science.
- * [Zero-to-Binder](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html) - how to create a Binder project from scratch for Python, Julia or R GitHub repository.
+### [The Turing Way](https://the-turing-way.netlify.app/welcome) 
+ Making reproducible Data Science "too easy not to do", handbook to reproducible, ethical and collaborative data science.
+### [Zero-to-Binder](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html) 
+How to create a Binder project from scratch for Python, Julia or R GitHub repository.
+### [chatGPT](https://chat.openai.com)
+ChatGPT can help with reproducible data science by providing assistance with documentation, code execution, and data analysis. For example, it can provide explanations on best practices for documentation, generate code snippets to perform specific data science tasks, and assist with statistical analysis. Additionally, ChatGPT can also help with generating reports and visualizations to communicate the results of data science projects in a clear and concise manner. However, it's important to note that reproducibility in data science also relies heavily on proper data management, version control, and collaboration. 
+
+**Never completely rely on ChatGPT. ChatGPT is not perfect and may sometimes provide incorrect or unreliable information. Double-check and verify information that you receive.**
 
 ## Papers
 
