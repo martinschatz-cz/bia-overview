@@ -56,6 +56,10 @@ A place to discuss image analysis with the Insight Toolkit (ITK). This includes 
 
 Official forum of KNIME Analytics Platform, an open-source data analytics, reporting and integration platform. KNIME integrates various components for machine learning and data mining through its modular data pipelining concept.
 
+## Tools for Reporducibility
+
+ * [**The Turing Way**](https://the-turing-way.netlify.app/welcome) - making reproducible Data Science "too easy not to do", handbook to reproducible, ethical and collaborative data science.
+
 ## Papers
 
 ### [Avoiding Twisted Pixels: Ethical Guidelines for the Appropriate Use and Manipulation of Scientific Digital Images](https://doi.org/10.1007/s11948-010-9201-y)
