@@ -302,12 +302,43 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bioimage-analysis-bias">
+   Bioimage Analysis (BIAS)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bioimage-analysts">
+     Bioimage Analysts
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -319,6 +350,26 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bioimage-analysis-bias">
+   Bioimage Analysis (BIAS)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bioimage-analysts">
+     Bioimage Analysts
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -328,7 +379,22 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h1>
+<section id="bioimage-analysis-bias">
+<h2>Bioimage Analysis (BIAS)<a class="headerlink" href="#bioimage-analysis-bias" title="Permalink to this headline">#</a></h2>
+<p><em>Digital image analysis generally aims at designing computer algorithms to mimic the human recognition of patterns and contexts in order to let computers “understand” images.</em> In turn <strong>Bioimage analysis</strong> focuses on the quantitative measurement of biological systems by processing multidimensional image data. It hence aims at being as objective as possible in measuring Bioimages and estimating the underlying numerical parameters of the biological systems they capture, independently of human observation.</p>
 <p><img alt="Image analysis is difficult step in research." src="_images/IA_demands.png" /></p>
+<section id="bioimage-analysts">
+<h3>Bioimage Analysts<a class="headerlink" href="#bioimage-analysts" title="Permalink to this headline">#</a></h3>
+<p>We consider that bioimaging involves four different types of expertise.</p>
+<ul class="simple">
+<li><p><strong>Life Scientists</strong> (e.g. Biologists)  ask questions and seek answer by setting up experiments.</p></li>
+<li><p><strong>Instrumentalists</strong> (e.g. Microscopists) develop optical systems, collaborate and provide support for the acquisition of BioImage data.</p></li>
+<li><p><strong>Developers</strong> (e.g. Image processing algorithm developers, programmers and computer scientists) provide novel algorithms and their implementations to process images.</p></li>
+<li><p><strong>Bioimage analysts</strong> are a new type of experts in BioImaging, they select appropriate image processing algorithms and their implementations, and assemble them for conducting practical Bioimage Analysis.</p></li>
+</ul>
+<p><em>Source:</em> <a class="reference external" href="https://eubias.org/NEUBIAS/venue/global-planning/">NEUBIAS Key Concepts</a></p>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
