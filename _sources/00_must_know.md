@@ -56,6 +56,17 @@ A place to discuss image analysis with the Insight Toolkit (ITK). This includes 
 
 Official forum of KNIME Analytics Platform, an open-source data analytics, reporting and integration platform. KNIME integrates various components for machine learning and data mining through its modular data pipelining concept.
 
+## Reproducible Data Science
+
+### [The Turing Way](https://the-turing-way.netlify.app/welcome) 
+ Making reproducible Data Science "too easy not to do", handbook to reproducible, ethical and collaborative data science.
+### [Zero-to-Binder](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html) 
+How to create a Binder project from scratch for Python, Julia or R GitHub repository.
+### [chatGPT](https://chat.openai.com)
+ChatGPT can help with reproducible data science by providing assistance with documentation, code execution, and data analysis. For example, it can provide explanations on best practices for documentation, generate code snippets to perform specific data science tasks, and assist with statistical analysis. Additionally, ChatGPT can also help with generating reports and visualizations to communicate the results of data science projects in a clear and concise manner. However, it's important to note that reproducibility in data science also relies heavily on proper data management, version control, and collaboration. 
+
+**Never completely rely on ChatGPT. ChatGPT is not perfect and may sometimes provide incorrect or unreliable information. Double-check and verify information that you receive.**
+
 ## Papers
 
 ### [Avoiding Twisted Pixels: Ethical Guidelines for the Appropriate Use and Manipulation of Scientific Digital Images](https://doi.org/10.1007/s11948-010-9201-y)
@@ -115,4 +126,40 @@ The light microscope has long been used to document the localization of fluoresc
     url = {https://doi.org/10.1083/jcb.200903097},
     eprint = {https://rupress.org/jcb/article-pdf/185/7/1135/1342498/jcb\_200903097.pdf},
 }
+```
+
+### [A Hitchhiker's guide through the bio-image analysis software universe](https://doi.org/10.1002/1873-3468.14451)
+Modern research in the life sciences is unthinkable without computational methods for extracting, quantifying and visualising information derived from microscopy imaging data of biological samples. In the past decade, we observed a dramatic increase in available software packages for these purposes. As it is increasingly difficult to keep track of the number of available image analysis platforms, tool collections, components and emerging technologies, we provide a conservative overview of software that we use in daily routine and give insights into emerging new tools. We give guidance on which aspects to consider when choosing the platform that best suits the user's needs, including aspects such as image data type, skills of the team, infrastructure and community at the institute and availability of time and budget.
+
+```
+@article{Haase2022,
+  doi = {10.1002/1873-3468.14451},
+  url = {https://doi.org/10.1002/1873-3468.14451},
+  year = {2022},
+  month = jul,
+  publisher = {Wiley},
+  volume = {596},
+  number = {19},
+  pages = {2472--2485},
+  author = {Robert Haase and Elnaz Fazeli and David Legland and Michael Doube and Si{\^{a}}n Culley and Ilya Belevich and Eija Jokitalo and Martin Schorb and Anna Klemm and Christian Tischer},
+  title = {A Hitchhiker{\textquotesingle}s guide through the bio-image analysis software universe},
+  journal = {{FEBS} Letters}
+}
+```
+
+### [Metrics reloaded: Pitfalls and recommendations for image analysis validation](https://doi.org/10.48550/arXiv.2206.01653)
+Increasing evidence shows that flaws in machine learning (ML) algorithm validation are an underestimated global problem. Particularly in automatic biomedical image analysis, chosen performance metrics often do not reflect the domain interest, thus failing to adequately measure scientific progress and hindering translation of ML techniques into practice. To overcome this, a large international expert consortium created Metrics Reloaded, a comprehensive framework guiding researchers towards choosing metrics in a problem-aware manner. Following the convergence of ML methodology across application domains, Metrics Reloaded fosters the convergence of validation methodology. The framework was developed in a multi-stage Delphi process and is based on the novel concept of a problem fingerprint - a structured representation of the given problem that captures all aspects that are relevant for metric selection from the domain interest to the properties of the target structure(s), data set and algorithm output. Metrics Reloaded targets image analysis problems that can be interpreted as a classification task at image, object or pixel level, namely image-level classification, object detection, semantic segmentation, and instance segmentation tasks. Users are guided through the process of selecting and applying appropriate validation metrics while being made aware of potential pitfalls. To improve the user experience, we implemented the framework in the Metrics Reloaded online tool, which also provides a common point of access to explore weaknesses and strengths of the most common validation metrics. An instantiation of the framework for various biological and medical image analysis use cases demonstrates its broad applicability across domains.
+
+```
+@misc{https://doi.org/10.48550/arxiv.2206.01653,
+  doi = {10.48550/ARXIV.2206.01653},
+  url = {https://arxiv.org/abs/2206.01653},
+  author = {Maier-Hein, Lena and Reinke, Annika and Godau, Patrick and Tizabi, Minu D. and Christodoulou, Evangelia and Glocker, Ben and Isensee, Fabian and Kleesiek, Jens and Kozubek, Michal and Reyes, Mauricio and Riegler, Michael A. and Wiesenfarth, Manuel and Baumgartner, Michael and Eisenmann, Matthias and Heckmann-Nötzel, Doreen and Kavur, A. Emre and Rädsch, Tim and Acion, Laura and Antonelli, Michela and Arbel, Tal and Bakas, Spyridon and Bankhead, Peter and Benis, Arriel and Cardoso, M. Jorge and Cheplygina, Veronika and Cimini, Beth and Collins, Gary S. and Farahani, Keyvan and Ferrer, Luciana and Galdran, Adrian and van Ginneken, Bram and Haase, Robert and Hashimoto, Daniel A. and Hoffman, Michael M. and Huisman, Merel and Jannin, Pierre and Kahn, Charles E. and Kainmueller, Dagmar and Kainz, Bernhard and Karargyris, Alexandros and Karthikesalingam, Alan and Kenngott, Hannes and Kofler, Florian and Kopp-Schneider, Annette and Kreshuk, Anna and Kurc, Tahsin and Landman, Bennett A. and Litjens, Geert and Madani, Amin and Maier-Hein, Klaus and Martel, Anne L. and Mattson, Peter and Meijering, Erik and Menze, Bjoern and Moher, David and Moons, Karel G. M. and Müller, Henning and Nichyporuk, Brennan and Nickel, Felix and Petersen, Jens and Rajpoot, Nasir and Rieke, Nicola and Saez-Rodriguez, Julio and Gutiérrez, Clarisa Sánchez and Shetty, Shravya and van Smeden, Maarten and Sudre, Carole H. and Summers, Ronald M. and Taha, Abdel A. and Tsaftaris, Sotirios A. and Van Calster, Ben and Varoquaux, Gaël and Jäger, Paul F.},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Metrics reloaded: Pitfalls and recommendations for image analysis validation},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
+}
+
 ```

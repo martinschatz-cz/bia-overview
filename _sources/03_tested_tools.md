@@ -21,6 +21,15 @@ Running ImageJ and its macros through Python, in local Jupyter Hub. Tested on 3 
 
 ### [pyimq](https://github.com/martinschatz-cz/image_quality_assesment)
 A quite impressive package for image quality assesment, tested on 3 images provided by the creators. 
+
+### [Other tool tests](https://github.com/martinschatz-cz/tool_tests)
+This package contains various test of packages and logs of how I installed them. The aim is to use Jupyter Lab, but the tools also have GUI.
+
+#### [pyTFM](https://github.com/martinschatz-cz/tool_tests/tree/main/pyTFM)
+pyTFM is a python package that allows you to analyze force generation and stresses in cell colonies and confluent cell layers growing on a 2 dimensional surface. This package implements the procedures of Traction Force Microscopy and Monolayer Stress Microscopy.
+
+#### [Cell ACDC](https://github.com/martinschatz-cz/tool_tests/tree/main/Cell_ACDC)
+A GUI-based Python framework for segmentation, tracking, cell cycle annotations and quantification of microscopy data.
  
 ## Wish List
 
