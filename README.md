@@ -22,6 +22,16 @@ This is a small book to give you an overview of my favourite sources and tested 
  * Added information about communities, papers, and lecture series related to BioImage Analysis
  * Added and updated links to various resources
  * Added and updated information about tested tools including YOLOv5, ImageJ in Python, PhyCV, and pyimq.
+ * Updated the README.md with new sections for BioImage Analysis lectures, resources, and tested tools
+ * Added information about open access books and papers related to BioImage Analysis, and Image.sc Forum
+ * Added example notebooks for LTEE, Wildlife detection, and Smear counting
+ * Added a section about communities with links to four forums
+ * Updated links for papers on image analysis accuracy and precision
+ * Added a section about tools for reproducibility and updated the link to the paper "Avoiding Twisted Pixels"
+ * Added information about The Turing Way and Zero-to-Binder, and link to ChatGPT
+ * Added two references to relevant papers and a reference to the Metrics Reloaded framework
+ * Tested pyTFM and Cell ACDC, and added descriptions of them to the README.md
+ * Updated Introduction
 
 ## January 2023
  * Added information about NEUBIAS Academy and F1000Research Gateway
