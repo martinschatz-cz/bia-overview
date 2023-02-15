@@ -163,3 +163,19 @@ Increasing evidence shows that flaws in machine learning (ML) algorithm validati
 }
 
 ```
+
+### [Community-developed checklists for publishing images and image analysis](https://doi.org/10.48550/arXiv.2302.07005)
+Images document scientific discoveries and are prevalent in modern biomedical research. Microscopy imaging in particular is currently undergoing rapid technological advancements. However for scientists wishing to publish the obtained images and image analyses results, there are to date no unified guidelines. Consequently, microscopy images and image data in publications may be unclear or difficult to interpret. Here we present community-developed checklists for preparing light microscopy images and image analysis for publications. These checklists offer authors, readers, and publishers key recommendations for image formatting and annotation, color selection, data availability, and for reporting image analysis workflows. The goal of our guidelines is to increase the clarity and reproducibility of image figures and thereby heighten the quality of microscopy data is in publications.
+
+```
+@misc{https://doi.org/10.48550/arxiv.2302.07005,
+  doi = {10.48550/ARXIV.2302.07005},
+  url = {https://arxiv.org/abs/2302.07005},
+  author = {Schmied,  Christopher and Nelson,  Michael and Avilov,  Sergiy and Bakker,  Gert-Jan and Bertocchi,  Cristina and Bischof,  Johanna and Boehm,  Ulrike and Brocher,  Jan and Carvalho,  Mariana and Chiritescu,  Catalin and Christopher,  Jana and Cimini,  Beth and Conde-Sousa,  Eduardo and Ebner,  Michael and Ecker,  Rupert and Eliceiri,  Kevin and Fernandez-Rodriguez,  Julia and Gaudreault,  Nathalie and Gelman,  Laurent and Grunwald,  David and Gu,  Tingting and Halidi,  Nadia and Hammer,  Mathias and Hartley,  Matthew and Held,  Marie and Jug,  Florian and Kapoor,  Varun and Koksoy,  Ayse Aslihan and Lacoste,  Judith and Dévédec,  Sylvia Le and Guyader,  Sylvie Le and Liu,  Penghuan and Martins,  Gabriel and Mathur,  Aastha and Miura,  Kota and Llopis,  Paula Montero and Nitschke,  Roland and North,  Alison and Parslow,  Adam and Payne-Dwyer,  Alex and Plantard,  Laure and Rizwan,  Ali and Schroth-Diez,  Britta and Sch\"{u}tz,  Lucas and Scott,  Ryan T. and Seitz,  Arne and Selchow,  Olaf and Sharma,  Ved and Spitaler,  Martin and Srinivasan,  Sathya and De Castillia,  Caterina Strambio and Taatjes,  Douglas and Tischer,  Christian and Jambor,  Helena Klara},
+  keywords = {Other Quantitative Biology (q-bio.OT),  FOS: Biological sciences,  FOS: Biological sciences},
+  title = {Community-developed checklists for publishing images and image analysis},
+  publisher = {arXiv},
+  year = {2023},
+  copyright = {Creative Commons Attribution Share Alike 4.0 International}
+}
+```
