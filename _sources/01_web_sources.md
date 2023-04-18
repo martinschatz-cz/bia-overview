@@ -26,6 +26,12 @@ Advanced AI models in one-click
  - Contribute your models via Github
  - Link models to datasets and applications
 
-## NEUBIAS
+## [NEUBIAS Academy](https://www.youtube.com/c/NEUBIAS/videos)
 
-## BIII
+## [BioImage Informatics Index (BIII)](https://biii.eu/)
+Many tools for BioImage Analysis are already available but information about these tools is non-uniform and often focuses on technicalities about the methods implemented rather than the problems the tools can actually solve. Since bioimage analysts focus on applied problems, this information is often inadequate. To overcome this issue, the platform BIII developed by the Network of European Bio-image Analyst NEUBIAS tries to match the problem with the relevant tools.
+
+BIII seeks to provide a unification of views: problem-based (e.g. “find nuclei in cells”), method-based (e.g. “active contour-based segmentation”), and tool-based (e.g. “CellProfiler”).  The platform will also gather commented links on articles describing algorithms with high potential but without a usable source code “Calls for implementation” to plan collaborative implementation through threads in the forum. The database is edited in a manner similar to Wikipedia: i.e. the community provides content that is managed by curators. Crowd-sourced database editing is reinforced by strategic meetings called taggathons, boosting the content of the database. These meetings are also aimed at reaching consensus on future directions.
+
+## Interesting blog entries
+ - [Cross-Validation in Machine Learning: How to Do It Right](https://neptune.ai/blog/cross-validation-in-machine-learning-how-to-do-it-right)
