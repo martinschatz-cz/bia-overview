@@ -16,6 +16,10 @@ Then this newsletter is for you!
 
 [Sign Up](https://heidiseibold.ck.page/)
 
+## Interactive Learning Tools
+
+[MYSCOPE - Microscopy Training](https://myscope.training/)
+MyScope was developed by Microscopy Australia to provide an online learning environment for those who want to learn about microscopy. The platform provides insights into the fundamental science behind different microscopes, explores what can and cannot be measured by different systems and provides realistic operating experiences on the microscope simulators. Online modules includes: Microscopy Concepts, Scanning Electron Microscopy, Transmission Electron Microscopy, Light & Fluorescence Microscopy, Cryo-Electron Microscopy, X-ray Diffraction, Energy Dispersive Spectroscopy, Atom Probe Tomography, Focused Ion Beam, Scanning Probe & Atomic Force Microscopy, Work Health and Safety, Research Data Management.
 
 ## Model ZOO
 
