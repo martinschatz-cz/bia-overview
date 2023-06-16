@@ -27,6 +27,7 @@ The gateway for all papers connected to BioImage Analysis tools, reviews and so 
 
 
 ## Books (open access)
+ * [Quantitative Bioimaging](https://www.bioimagingguide.org/) - This book is a collaborative effort from experts in biology, imaging, image analysis, and data management, interpretation, and presentation. Our tips and recommendations come from real experiences training and working with biologists who are beginners to bioimaging and bioimage analysis.
  * [Bioimage Data Analysis Workflows (Kota Miura, Nataša Sladoje)](https://link.springer.com/book/10.1007/978-3-030-22386-1)
  * [Introduction to Bioimage Analysis (Pete Bankhead)](https://bioimagebook.github.io/)
  * [Analyzing fluorescence microscopy images with ImageJ (Pete Bankhead)](https://petebankhead.gitbooks.io/imagej-intro/content/)
