@@ -1,5 +1,8 @@
 # Must Know Sources
 
+## CzechBIAS
+The Czech BioImage Analysts’ Society ([**CzechBIAS**](https://czechbias.github.io/)) is a freely formed society for anyone interested in BioImage Analysis. Its aim is to associate BioImage Analysts so they can discuss and share experiences and tools. It was created in 2023 with the ideology of [NEUBIAS](https://eubias.org/NEUBIAS/) and its successor in mind, and [SwissBIAS](https://swissbias.github.io/) as an inspiration.
+
 ## NEUBIAS
 NEUBIAS is a unique network of bioimage analysts in Europe, aiming at strengthening the bridge between life science,  computer science and digital image processing by:
 
