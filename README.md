@@ -7,7 +7,12 @@ This is a small book to give you an overview of my favourite sources and tested 
 # Updates
 
 ## 2023
-
+ * Added and checked off YOLOv5 - SciCount and pyimg - Image quality assesment [03_tested_tools.md](https://github.com/martinschatz-cz/bia-overview/blob/f78d791038a73720bf270a3909b18dfc57996f31/bia-overview/03_tested_tools.md)
+ * Checked off StarDist and Noise2Void [03_tested_tools.md](https://github.com/martinschatz-cz/bia-overview/blob/f78d791038a73720bf270a3909b18dfc57996f31/bia-overview/03_tested_tools.md)
+ * Added a Noise2Void description [03_tested_tools.md](https://github.com/martinschatz-cz/bia-overview/blob/f78d791038a73720bf270a3909b18dfc57996f31/bia-overview/03_tested_tools.md)
+ * Added a StarDist description [03_tested_tools.md](https://github.com/martinschatz-cz/bia-overview/blob/f78d791038a73720bf270a3909b18dfc57996f31/bia-overview/03_tested_tools.md)
+ * Added a FIJI tutorial link [03_tested_tools.md](https://github.com/martinschatz-cz/bia-overview/blob/f78d791038a73720bf270a3909b18dfc57996f31/bia-overview/03_tested_tools.md)
+ * Added a QuPath tutorial link [03_tested_tools.md](https://github.com/martinschatz-cz/bia-overview/blob/f78d791038a73720bf270a3909b18dfc57996f31/bia-overview/03_tested_tools.md)
  * Added section for BioImage Analysis lectures
  * Included links to Bio-image Analysis resources and YouTube channel
  * Added information about NEUBIAS Academy and F1000Research Gateway
