@@ -6,7 +6,7 @@ This is a small book to give you an overview of my favourite sources and tested 
 
 # Updates
 
-## February 2023
+## 2023
 
  * Added section for BioImage Analysis lectures
  * Included links to Bio-image Analysis resources and YouTube channel
@@ -32,8 +32,6 @@ This is a small book to give you an overview of my favourite sources and tested 
  * Added two references to relevant papers and a reference to the Metrics Reloaded framework
  * Tested pyTFM and Cell ACDC, and added descriptions of them to the README.md
  * Updated Introduction
-
-## January 2023
  * Added information about NEUBIAS Academy and F1000Research Gateway
  * Added information about open access books and papers related to BioImage Analysis
  * Added information about Image.sc Forum as a place to ask questions about scientific imaging
