@@ -6,10 +6,22 @@ To be filled in soon.
 - [x] YOLOv5 - SciCount
 - [x] ImageJ in Python
 - [x] pyimg - Image quality assesment
-- [ ] StarDist
-- [ ] Noise2Void
+- [x] StarDist
+- [x] Noise2Void
 - [ ] CellPose
 - [ ] PhyCV - physics-inspired Computer Vision Library
+
+### Noise2Void
+Noise2Void (N2V) is a powerful, context aware and flexible algorithm for image denoising. It uses artificial neural networks to learn about the properties of your images and how to best denoise them. N2V outperforms traditional denoising techniques. A tutorial for FIJI with files, presentations and more can be found in the [https://zenodo.org/record/8025067](BioImage Analysis and Superresolution Microscopy Workshop 2023 (at Dartmouth College)) Zenodo repository of [https://web.natur.cuni.cz/sekce-bi/VMCF/worskhops/](BioImage Analysis and Superresolution Microscopy Workshop 2023).
+
+### StarDist
+StarDist is a fantastic, deep-learning-based method of 2D and 3D nucleus detection from Martin Weigert and Uwe Schmidt. It exists as a Python library and Fiji plugin.
+
+#### FIJI
+A tutorial with files, presentations and more can be found in the [https://zenodo.org/record/8025067](BioImage Analysis and Superresolution Microscopy Workshop 2023 (at Dartmouth College)) Zenodo repository of [https://web.natur.cuni.cz/sekce-bi/VMCF/worskhops/](BioImage Analysis and Superresolution Microscopy Workshop 2023).
+
+#### QuPath
+[Here](https://www.youtube.com/watch?v=UI_Sfv3rNo4&list=PLZSnRdb-MTNfBx6Q8wKbu-5oyAo0FttCE&index=2&ab_channel=MarkZaidi) is a very nic YouTube video explaining how to use StarDist models in QuPath. The general models are available from [Universal-StarDist-for-QuPath](https://github.com/MarkZaidi/Universal-StarDist-for-QuPath) GitHub. You can find more info and scripts in [this](https://github.com/vmcf-konfmi/QuPath) GitHub repository.
 
 ### [YOLOv5 - SciCount](https://github.com/martinschatz-cz/SciCount)
 SciCount is tool focused on counting and classifying of objects in image-like data and scientific images, with training and example datasets. In it core it is YOLO V5 made by [Ultralytics](https://github.com/ultralytics/yolov5) (authored by [Glenn Jocher](https://www.linkedin.com/in/glenn-jocher/)), without which it would be impossible to apply our approaches on scientific data.

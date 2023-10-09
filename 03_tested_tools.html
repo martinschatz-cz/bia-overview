@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,9 +38,9 @@
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
-  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -374,6 +374,12 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#my-tested-tools">My Tested tools</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#noise2void">Noise2Void</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stardist">StarDist</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#fiji">FIJI</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#qupath">QuPath</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#yolov5-scicount">YOLOv5 - SciCount</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pyimagej-imagej-in-python">PyImageJ - ImageJ in Python</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pyimq">pyimq</a></li>
@@ -414,11 +420,27 @@ document.write(`
 <li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> YOLOv5 - SciCount</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> ImageJ in Python</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> pyimg - Image quality assesment</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> StarDist</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Noise2Void</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> StarDist</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Noise2Void</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> CellPose</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> PhyCV - physics-inspired Computer Vision Library</p></li>
 </ul>
+<section id="noise2void">
+<h3>Noise2Void<a class="headerlink" href="#noise2void" title="Permalink to this heading">#</a></h3>
+<p>Noise2Void (N2V) is a powerful, context aware and flexible algorithm for image denoising. It uses artificial neural networks to learn about the properties of your images and how to best denoise them. N2V outperforms traditional denoising techniques. A tutorial for FIJI with files, presentations and more can be found in the [<a class="reference external" href="https://zenodo.org/record/8025067">https://zenodo.org/record/8025067</a>](BioImage Analysis and Superresolution Microscopy Workshop 2023 (at Dartmouth College)) Zenodo repository of [<a class="reference external" href="https://web.natur.cuni.cz/sekce-bi/VMCF/worskhops/">https://web.natur.cuni.cz/sekce-bi/VMCF/worskhops/</a>](BioImage Analysis and Superresolution Microscopy Workshop 2023).</p>
+</section>
+<section id="stardist">
+<h3>StarDist<a class="headerlink" href="#stardist" title="Permalink to this heading">#</a></h3>
+<p>StarDist is a fantastic, deep-learning-based method of 2D and 3D nucleus detection from Martin Weigert and Uwe Schmidt. It exists as a Python library and Fiji plugin.</p>
+<section id="fiji">
+<h4>FIJI<a class="headerlink" href="#fiji" title="Permalink to this heading">#</a></h4>
+<p>A tutorial with files, presentations and more can be found in the [<a class="reference external" href="https://zenodo.org/record/8025067">https://zenodo.org/record/8025067</a>](BioImage Analysis and Superresolution Microscopy Workshop 2023 (at Dartmouth College)) Zenodo repository of [<a class="reference external" href="https://web.natur.cuni.cz/sekce-bi/VMCF/worskhops/">https://web.natur.cuni.cz/sekce-bi/VMCF/worskhops/</a>](BioImage Analysis and Superresolution Microscopy Workshop 2023).</p>
+</section>
+<section id="qupath">
+<h4>QuPath<a class="headerlink" href="#qupath" title="Permalink to this heading">#</a></h4>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=UI_Sfv3rNo4&amp;list=PLZSnRdb-MTNfBx6Q8wKbu-5oyAo0FttCE&amp;index=2&amp;ab_channel=MarkZaidi">Here</a> is a very nic YouTube video explaining how to use StarDist models in QuPath. The general models are available from <a class="reference external" href="https://github.com/MarkZaidi/Universal-StarDist-for-QuPath">Universal-StarDist-for-QuPath</a> GitHub. You can find more info and scripts in <a class="reference external" href="https://github.com/vmcf-konfmi/QuPath">this</a> GitHub repository.</p>
+</section>
+</section>
 <section id="yolov5-scicount">
 <h3><a class="reference external" href="https://github.com/martinschatz-cz/SciCount">YOLOv5 - SciCount</a><a class="headerlink" href="#yolov5-scicount" title="Permalink to this heading">#</a></h3>
 <p>SciCount is tool focused on counting and classifying of objects in image-like data and scientific images, with training and example datasets. In it core it is YOLO V5 made by <a class="reference external" href="https://github.com/ultralytics/yolov5">Ultralytics</a> (authored by <a class="reference external" href="https://www.linkedin.com/in/glenn-jocher/">Glenn Jocher</a>), without which it would be impossible to apply our approaches on scientific data.</p>
@@ -541,6 +563,12 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#my-tested-tools">My Tested tools</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#noise2void">Noise2Void</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stardist">StarDist</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#fiji">FIJI</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#qupath">QuPath</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#yolov5-scicount">YOLOv5 - SciCount</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pyimagej-imagej-in-python">PyImageJ - ImageJ in Python</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pyimq">pyimq</a></li>
@@ -608,8 +636,8 @@ By Martin Schätz
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
+  <script src="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
 
   <footer class="bd-footer">
   </footer>
