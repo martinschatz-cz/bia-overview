@@ -72,8 +72,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = '03_tested_tools';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Courses, Webinars, Lectures" href="04_courses.html" />
-    <link rel="prev" title="Online Lectures" href="02_lectures.html" />
+    <link rel="prev" title="Courses, Webinars, Lectures" href="02_lectures.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -178,9 +177,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="Introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="00_must_know.html">Must Know Sources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01_web_sources.html">Web Sources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02_lectures.html">Online Lectures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_lectures.html">Courses, Webinars, Lectures</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">BiA Approaches</a></li>
-<li class="toctree-l1"><a class="reference internal" href="04_courses.html">Courses, Webinars, Lectures</a></li>
 </ul>
 
     </div>
@@ -375,6 +373,7 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#my-tested-tools">My Tested tools</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cellpose">CellPose</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#noise2void">Noise2Void</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stardist">StarDist</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#fiji">FIJI</a></li>
@@ -420,12 +419,21 @@ document.write(`
 <ul class="contains-task-list simple">
 <li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> YOLOv5 - SciCount</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> ImageJ in Python</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> pyimg - Image quality assesment</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> pyimg - Image quality assessment</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> StarDist</p></li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Noise2Void</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> CellPose</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> CellPose</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> CellPose 2.0</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> CellPose custom models</p></li>
+</ul>
+</li>
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> PhyCV - physics-inspired Computer Vision Library</p></li>
 </ul>
+<section id="cellpose">
+<h3>CellPose<a class="headerlink" href="#cellpose" title="Permalink to this heading">#</a></h3>
+<p>With the CellPose 2.0 came an option to fine-tune the models, which opens up a lot of possibilities. With a direct connection to FIJI and Trackmate with <a class="reference external" href="https://imagej.net/plugins/trackmate/detectors/trackmate-cellpose">trackMate-Cellpose</a>, it is possible now to track the time-lapses and more. We can look forward to more files covering that, but for now, I at least created a simple <a class="reference external" href="https://doi.org/10.6084/m9.figshare.24441214.v1">Visual Cheat Sheet</a> to help tackle some of the usage during my lectures.</p>
+</section>
 <section id="noise2void">
 <h3>Noise2Void<a class="headerlink" href="#noise2void" title="Permalink to this heading">#</a></h3>
 <p>Noise2Void (N2V) is a powerful, context aware and flexible algorithm for image denoising. It uses artificial neural networks to learn about the properties of your images and how to best denoise them. N2V outperforms traditional denoising techniques. A tutorial for FIJI with files, presentations and more can be found in the [<a class="reference external" href="https://zenodo.org/record/8025067">https://zenodo.org/record/8025067</a>](BioImage Analysis and Superresolution Microscopy Workshop 2023 (at Dartmouth College)) Zenodo repository of [<a class="reference external" href="https://web.natur.cuni.cz/sekce-bi/VMCF/worskhops/">https://web.natur.cuni.cz/sekce-bi/VMCF/worskhops/</a>](BioImage Analysis and Superresolution Microscopy Workshop 2023).</p>
@@ -536,17 +544,8 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Online Lectures</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="04_courses.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Courses, Webinars, Lectures</p>
       </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -564,6 +563,7 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#my-tested-tools">My Tested tools</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cellpose">CellPose</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#noise2void">Noise2Void</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stardist">StarDist</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#fiji">FIJI</a></li>
