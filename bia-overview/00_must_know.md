@@ -4,11 +4,11 @@
 The Czech BioImage Analysts’ Society ([**CzechBIAS**](https://czechbias.github.io/)) is a freely formed society for anyone interested in BioImage Analysis. Its aim is to associate BioImage Analysts so they can discuss and share experiences and tools. It was created in 2023 with the ideology of [NEUBIAS](https://eubias.org/NEUBIAS/) and its successor in mind, and [SwissBIAS](https://swissbias.github.io/) as an inspiration.
 
 ## NEUBIAS
-NEUBIAS is a unique network of bioimage analysts in Europe, aiming at strengthening the bridge between life science,  computer science and digital image processing by:
+NEUBIAS is a unique network of bioimage analysts in Europe, aiming at strengthening the bridge between life science,  computer science, and digital image processing by:
 
  * Establishing the role and identity of bioimage analysts in the life science community
  * Sharing bioimage analysis knowledge and techniques
- * Improving image analysis technology, foster innovations and collaborations
+ * Improving image analysis technology, fostering innovations and collaborations
  * Securing image data integrity
  * Complementing rapidly evolving microscopy techniques
  
@@ -17,7 +17,7 @@ NEUBIAS is a unique network of bioimage analysts in Europe, aiming at strengthen
 
 
 ### NEUBIAS Academy
-NUBIAS Academy is anouncing webinars presenting new BiA tools, ideas or workflows. While the youtube channel is where all the records are. This is a great start when you want to start using or get to know a new tool.
+NUBIAS Academy is announcing webinars presenting new BiA tools, ideas, or workflows. While the YouTube channel is where all the records are. This is a great start when you want to start using or get to know a new tool.
  * [Web](https://eubias.org/NEUBIAS/training-schools/neubias-academy-home/)
  * [Youtube Channel](https://www.youtube.com/playlist?list=PLbQR9xT-T5W9qcTWdljmaBJcvF_4lhUdH)
 
@@ -25,12 +25,12 @@ NUBIAS Academy is anouncing webinars presenting new BiA tools, ideas or workflow
 
 
 ### NEUBIAS F1000Research Gateway
-The gateway for all papers connected to BioImage Analysis tools, reviews and so on. The F1000Research is curently the best choice for Open Science publishing - everything is availabel from start, opn peer reviewd and with data and codes (wher relevant).
+The gateway for all papers connected to BioImage Analysis tools, reviews, and so on. The F1000Research is currently the best choice for Open Science publishing - everything is available from start, open peer reviewed and with data and codes (where relevant).
 [f1000research.com/NEUBIAS](https://f1000research.com/NEUBIAS)
 
 
 ## Books (open access)
- * [Quantitative Bioimaging](https://www.bioimagingguide.org/) - This book is a collaborative effort from experts in biology, imaging, image analysis, and data management, interpretation, and presentation. Our tips and recommendations come from real experiences training and working with biologists who are beginners to bioimaging and bioimage analysis.
+ * **Quantitative Bioimaging** [english version](https://www.bioimagingguide.org/)/[czech version](https://cs.bioimagingguide.org/) - This book is a collaborative effort from experts in biology, imaging, image analysis, and data management, interpretation, and presentation. Our tips and recommendations come from real experiences training and working with biologists who are beginners to bioimaging and bioimage analysis.
  * [Bioimage Data Analysis Workflows (Kota Miura, Nataša Sladoje)](https://link.springer.com/book/10.1007/978-3-030-22386-1)
  * [Introduction to Bioimage Analysis (Pete Bankhead)](https://bioimagebook.github.io/)
  * [Analyzing fluorescence microscopy images with ImageJ (Pete Bankhead)](https://petebankhead.gitbooks.io/imagej-intro/content/)
@@ -40,7 +40,7 @@ The gateway for all papers connected to BioImage Analysis tools, reviews and so 
 ### Image.sc Forum
 [forum.image.sc](https://forum.image.sc/)
 
-If you have any kind of question, this is place to start. You can get here answers even sniplets of codes in matter of hour - all thanks to very active community.
+If you have any kind of questions, this is the place to start. You can get here answers even sniplets of codes in a matter of an hour - all thanks to a very active community.
 
 This forum’s focus is software-oriented aspects of scientific imaging, particularly (but not limited to) image analysis, processing, acquisition, storage, and management of digital scientific images. Everyone is welcome to ask questions. It’s for beginners and experts; life scientists and computer scientists; for practical questions and theoretical approaches to solving scientific problems with images. The primary objective is to foster independent learning 170 for everyone in the community.
 
@@ -63,13 +63,13 @@ Official forum of KNIME Analytics Platform, an open-source data analytics, repor
 ## Reproducible Data Science
 
 ### [The Turing Way](https://the-turing-way.netlify.app/welcome) 
- Making reproducible Data Science "too easy not to do", handbook to reproducible, ethical and collaborative data science.
+ Making reproducible Data Science "too easy not to do", a handbook to reproducible, ethical, and collaborative data science.
 ### [Zero-to-Binder](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html) 
-How to create a Binder project from scratch for Python, Julia or R GitHub repository.
+How to create a Binder project from scratch for Python, Julia, or R GitHub repository.
 ### [chatGPT](https://chat.openai.com)
-ChatGPT can help with reproducible data science by providing assistance with documentation, code execution, and data analysis. For example, it can provide explanations on best practices for documentation, generate code snippets to perform specific data science tasks, and assist with statistical analysis. Additionally, ChatGPT can also help with generating reports and visualizations to communicate the results of data science projects in a clear and concise manner. However, it's important to note that reproducibility in data science also relies heavily on proper data management, version control, and collaboration. 
+ChatGPT can help with reproducible data science by providing assistance with documentation, code execution, and data analysis. For example, it can provide explanations on best practices for documentation, generate code snippets to perform specific data science tasks and assist with statistical analysis. Additionally, ChatGPT can also help with generating reports and visualizations to communicate the results of data science projects in a clear and concise manner. However, it's important to note that reproducibility in data science also relies heavily on proper data management, version control, and collaboration. 
 
-**Never completely rely on ChatGPT. ChatGPT is not perfect and may sometimes provide incorrect or unreliable information. Double-check and verify information that you receive.**
+**Never completely rely on ChatGPT. ChatGPT is not perfect and may sometimes provide incorrect or unreliable information. Double-check and verify the information that you receive.**
 
 ## Papers
 
@@ -94,7 +94,7 @@ Digital imaging has provided scientists with new opportunities to acquire and ma
 ```
 
 ### [Reproducible image handling and analysis](https://doi.org/10.15252/embj.2020105889)
-Image data are universal in life sciences research. Their proper handling is not. A significant proportion of image data in research papers show signs of mishandling that undermine their interpretation. We propose that a precise description of the image processing and analysis applied is required to address this problem. A new norm for reporting reproducible image analyses will diminish mishandling, as it will alert co-authors, referees, and journals to aberrant image data processing or, if published nonetheless, it will document it to the reader. To promote this norm, we discuss the effectiveness of this approach and give some step-by-step instructions for publishing reproducible image data processing and analysis workflows.
+Image data are universal in life sciences research. Their proper handling is not. A significant proportion of image data in research papers show signs of mishandling that undermine their interpretation. We propose that a precise description of the image processing and analysis applied is required to address this problem. A new norm for reporting reproducible image analyses will diminish mishandling, as it will alert co-authors, referees, and journals to aberrant image data processing or if published nonetheless, it will document it to the reader. To promote this norm, we discuss the effectiveness of this approach and give some step-by-step instructions for publishing reproducible image data processing and analysis workflows.
 
 ```
 @article{Miura2021,
@@ -133,7 +133,7 @@ The light microscope has long been used to document the localization of fluoresc
 ```
 
 ### [A Hitchhiker's guide through the bio-image analysis software universe](https://doi.org/10.1002/1873-3468.14451)
-Modern research in the life sciences is unthinkable without computational methods for extracting, quantifying and visualising information derived from microscopy imaging data of biological samples. In the past decade, we observed a dramatic increase in available software packages for these purposes. As it is increasingly difficult to keep track of the number of available image analysis platforms, tool collections, components and emerging technologies, we provide a conservative overview of software that we use in daily routine and give insights into emerging new tools. We give guidance on which aspects to consider when choosing the platform that best suits the user's needs, including aspects such as image data type, skills of the team, infrastructure and community at the institute and availability of time and budget.
+Modern research in the life sciences is unthinkable without computational methods for extracting, quantifying, and visualizing information derived from microscopy imaging data of biological samples. In the past decade, we observed a dramatic increase in available software packages for these purposes. As it is increasingly difficult to keep track of the number of available image analysis platforms, tool collections, components and emerging technologies, we provide a conservative overview of software that we use in our daily routine and give insights into emerging new tools. We give guidance on which aspects to consider when choosing the platform that best suits the user's needs, including aspects such as image data type, skills of the team, infrastructure and community at the institute, and availability of time and budget.
 
 ```
 @article{Haase2022,
@@ -152,7 +152,7 @@ Modern research in the life sciences is unthinkable without computational method
 ```
 
 ### [Metrics reloaded: Pitfalls and recommendations for image analysis validation](https://doi.org/10.48550/arXiv.2206.01653)
-Increasing evidence shows that flaws in machine learning (ML) algorithm validation are an underestimated global problem. Particularly in automatic biomedical image analysis, chosen performance metrics often do not reflect the domain interest, thus failing to adequately measure scientific progress and hindering translation of ML techniques into practice. To overcome this, a large international expert consortium created Metrics Reloaded, a comprehensive framework guiding researchers towards choosing metrics in a problem-aware manner. Following the convergence of ML methodology across application domains, Metrics Reloaded fosters the convergence of validation methodology. The framework was developed in a multi-stage Delphi process and is based on the novel concept of a problem fingerprint - a structured representation of the given problem that captures all aspects that are relevant for metric selection from the domain interest to the properties of the target structure(s), data set and algorithm output. Metrics Reloaded targets image analysis problems that can be interpreted as a classification task at image, object or pixel level, namely image-level classification, object detection, semantic segmentation, and instance segmentation tasks. Users are guided through the process of selecting and applying appropriate validation metrics while being made aware of potential pitfalls. To improve the user experience, we implemented the framework in the Metrics Reloaded online tool, which also provides a common point of access to explore weaknesses and strengths of the most common validation metrics. An instantiation of the framework for various biological and medical image analysis use cases demonstrates its broad applicability across domains.
+Increasing evidence shows that flaws in machine learning (ML) algorithm validation are an underestimated global problem. Particularly in automatic biomedical image analysis, chosen performance metrics often do not reflect the domain interest, thus failing to adequately measure scientific progress and hindering the translation of ML techniques into practice. To overcome this, a large international expert consortium created Metrics Reloaded, a comprehensive framework guiding researchers toward choosing metrics in a problem-aware manner. Following the convergence of ML methodology across application domains, Metrics Reloaded fosters the convergence of validation methodology. The framework was developed in a multi-stage Delphi process and is based on the novel concept of a problem fingerprint - a structured representation of the given problem that captures all aspects that are relevant for metric selection from the domain interest to the properties of the target structure(s), data set and algorithm output. Metrics Reloaded targets image analysis problems that can be interpreted as a classification task at image, object, or pixel level, namely image-level classification, object detection, semantic segmentation, and instance segmentation tasks. Users are guided through the process of selecting and applying appropriate validation metrics while being made aware of potential pitfalls. To improve the user experience, we implemented the framework in the Metrics Reloaded online tool, which also provides a common point of access to explore the weaknesses and strengths of the most common validation metrics. An instantiation of the framework for various biological and medical image analysis use cases demonstrates its broad applicability across domains.
 
 ```
 @misc{https://doi.org/10.48550/arxiv.2206.01653,
@@ -169,7 +169,7 @@ Increasing evidence shows that flaws in machine learning (ML) algorithm validati
 ```
 
 ### [Community-developed checklists for publishing images and image analysis](https://doi.org/10.48550/arXiv.2302.07005)
-Images document scientific discoveries and are prevalent in modern biomedical research. Microscopy imaging in particular is currently undergoing rapid technological advancements. However for scientists wishing to publish the obtained images and image analyses results, there are to date no unified guidelines. Consequently, microscopy images and image data in publications may be unclear or difficult to interpret. Here we present community-developed checklists for preparing light microscopy images and image analysis for publications. These checklists offer authors, readers, and publishers key recommendations for image formatting and annotation, color selection, data availability, and for reporting image analysis workflows. The goal of our guidelines is to increase the clarity and reproducibility of image figures and thereby heighten the quality of microscopy data is in publications.
+Images document scientific discoveries and are prevalent in modern biomedical research. Microscopy imaging in particular is currently undergoing rapid technological advancements. However, for scientists wishing to publish the obtained images and image analysis results, there are to date no unified guidelines. Consequently, microscopy images and image data in publications may be unclear or difficult to interpret. Here we present community-developed checklists for preparing light microscopy images and image analysis for publications. These checklists offer authors, readers, and publishers key recommendations for image formatting and annotation, color selection, data availability, and reporting image analysis workflows. The goal of our guidelines is to increase the clarity and reproducibility of image figures and thereby heighten the quality of microscopy data in publications.
 
 ```
 @misc{https://doi.org/10.48550/arxiv.2302.07005,
