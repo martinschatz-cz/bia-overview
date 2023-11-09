@@ -5,11 +5,16 @@ To be filled in soon.
 
 - [x] YOLOv5 - SciCount
 - [x] ImageJ in Python
-- [x] pyimg - Image quality assesment
+- [x] pyimg - Image quality assessment
 - [x] StarDist
 - [x] Noise2Void
-- [ ] CellPose
+- [x] CellPose
+     - [x] CellPose 2.0
+     - [x] CellPose custom models
 - [ ] PhyCV - physics-inspired Computer Vision Library
+
+### CellPose
+With the CellPose 2.0 came an option to fine-tune the models, which opens up a lot of possibilities. With a direct connection to FIJI and Trackmate with [trackMate-Cellpose](https://imagej.net/plugins/trackmate/detectors/trackmate-cellpose), it is possible now to track the time-lapses and more. We can look forward to more files covering that, but for now, I at least created a simple [Visual Cheat Sheet](https://doi.org/10.6084/m9.figshare.24441214.v1) to help tackle some of the usage during my lectures.
 
 ### Noise2Void
 Noise2Void (N2V) is a powerful, context aware and flexible algorithm for image denoising. It uses artificial neural networks to learn about the properties of your images and how to best denoise them. N2V outperforms traditional denoising techniques. A tutorial for FIJI with files, presentations and more can be found in the [https://zenodo.org/record/8025067](BioImage Analysis and Superresolution Microscopy Workshop 2023 (at Dartmouth College)) Zenodo repository of [https://web.natur.cuni.cz/sekce-bi/VMCF/worskhops/](BioImage Analysis and Superresolution Microscopy Workshop 2023).
