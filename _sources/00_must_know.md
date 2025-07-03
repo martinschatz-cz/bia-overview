@@ -3,6 +3,26 @@
 ## CzechBIAS
 The Czech BioImage Analysts’ Society ([**CzechBIAS**](https://czechbias.github.io/)) is a freely formed society for anyone interested in BioImage Analysis. Its aim is to associate BioImage Analysts so they can discuss and share experiences and tools. It was created in 2023 with the ideology of [NEUBIAS](https://eubias.org/NEUBIAS/) and its successor in mind, and [SwissBIAS](https://swissbias.github.io/) as an inspiration.
 
+## GloBIAS
+[GloBIAS](https://www.globias.org/) or Global BioImage Analysts’ Society (GloBIAS) aims to be a worldwide association that brings together all those interested in bioimage analysis. 
+
+The society will enable learning and knowledge exchange between members. This will be achieved by a number of different tools, such as online events, in-person workshops and online repositories. 
+
+The GloBIAS is a registered not-for-profit association. The foundation of the society is supported by a grant of the Chan Zuckerberg Initiative to the project "Society for Knowledge Exchange in BioImage Analysis" until December 2025, after which the aim is for the Society to be self-sustained through membership fees and activities.
+
+During the preparation phase, we will conduct a survey to gather input from the community on how to build the society and engage future members. Once established, GloBIAS will be a member-driven organisation.
+
+### GloBIAS Bioimage Analyst Database
+GloBIAS maintains the database below of people who wish to be publicly listed as bioimage analysts in our global registry. GloBIAS has no official certification process for inclusion and makes no guarantees of the completeness or accuracy of any information.
+
+[https://www.globias.org/resources/bioimage-analyst-db](https://www.globias.org/resources/bioimage-analyst-db)
+
+### GloBIAS Bioimage Analysis trainers database
+
+GloBIAS maintains the database below of people who wish to be publicly listed as bioimage analysis trainer in our global registry. GloBIAS has no official certification process for inclusion and makes no guarantees of the completeness or accuracy of any information.
+
+[https://www.globias.org/resources/bia-trainers-db](https://www.globias.org/resources/bia-trainers-db)
+
 ## NEUBIAS
 NEUBIAS is a unique network of bioimage analysts in Europe, aiming at strengthening the bridge between life science,  computer science, and digital image processing by:
 
@@ -182,4 +202,16 @@ Images document scientific discoveries and are prevalent in modern biomedical re
   year = {2023},
   copyright = {Creative Commons Attribution Share Alike 4.0 International}
 }
+```
+### [A checklist for designing and improving the visualization of scientific data](https://doi.org/10.1038/s41556-025-01684-z)
+Creating clear and engaging scientific figures is crucial to communicate complex data. In this Comment, I condense principles from design, visual perception and data visualization research in a checklist that can help researchers to improve their data visualization, by focusing on clarity, accessibility and design best practices.
+```
+@journal-article{ITEM1, title={A checklist for designing and improving the visualization of scientific data},
+journal={Nature Cell Biology},
+volume={27},
+number={},
+pages={879--883},
+year={2025},
+publisher={Springer Science and Business Media LLC},
+author={Jambor, Helena Klara}}
 ```
