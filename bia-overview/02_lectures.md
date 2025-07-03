@@ -1,6 +1,6 @@
 # Courses, Webinars, Lectures
 
-To be filled in soon.
+If you are interested in planned webinars, workshops and conferences you can check out the [Events database](https://czechbias.github.io/resources/events.html) on [CzechBIAS](https://czechbias.github.io/intro.html) pages powered by [MicroscopyDB](https://microscopydb.io/)!
 
 ## ImageJ
 
